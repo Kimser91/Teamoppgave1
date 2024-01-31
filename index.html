@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stoppeklokke Med Boks</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+
+  <div class="BtnBox"><br><br><br><br>
+    <button class="Btn" onclick="startTimer()">Start</button> 
+    <button class="Btn" onclick="pauseTimer()">Lap</button><br>
+    <button class="Btn" onclick="stopAll()">Reset</button>
+    <button class="Btn" onclick="openChest()">Chest</button>
+  </div>
+  </div>
+  
+
+  <div id="app" class="clockDisplay">0</div>
+
+  <div id="Inventory">
+    <div class="nameOfChest">RUNDETIDER:</div>
+  <div class= "box">
+  <div id="lastRound" class="roundsList" onclick="chestOfGlory()"></div>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

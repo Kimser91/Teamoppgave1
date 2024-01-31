@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(67, 101, 51);
+    user-select: none;
+    
+}
+
+#Inventory {
+    color: rgb(239, 230, 230);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.box {
+display: flex;
+justify-content: center;
+border: solid 2px rgb(52, 52, 52);
+background-color: rgb(106, 126, 77);
+margin-top: 10px;
+padding: 5px;
+}
+
+.nameOfChest {
+  display: flex;
+justify-content: center;
+}
+.BtnBox{
+    display: flex;
+    justify-content: center;
+}
+
+.clockDisplay {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  color: rgb(34, 56, 21);
+  
+}
+
+.Btn {
+  user-select: none;
+  opacity: 100%;
+  background-color: rgb(32, 52, 24);
+  border: none;
+  color: white;
+  width: 60px;
+  height: 25px;
+  border-radius: 25px;
+  margin: 10px;
+  color: rgb(231, 231, 231);
+  cursor: pointer;
+}
+
+
+.Btn:hover {
+  opacity: 50%;
+  transition: 0.5s;
+  background-color: rgb(98, 124, 69);
+  margin: 10px;
+  }
+
+.Btn:active {
+opacity: 20%;
+background-color: rgb(106, 121, 144);
+margin: 10px;
+}
+
+
+.Btn:not(hover){
+  opacity: 100%;
+transition: 0,7s;
+margin: 10px;
+}
+
